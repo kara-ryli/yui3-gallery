@@ -1,0 +1,38 @@
+<div class="intro">
+    <p>
+    This module adds full screen support to Y.Node, managing the abstraction between various browser implementations.
+    </p>
+</div>
+
+<h2>Description</h2>
+
+<p>Adds the following methods to Y.Node instances:</p>
+
+<table class="yui-table">
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>isFullScreen</td>
+      <td>Whether or not the node is currently in full screen mode.</td>
+    </tr>
+    <tr>
+      <td>canGoFullScreen</td>
+      <td>Whether or not the node is currently can be put into full screen mode.</td>
+    </tr>
+    <tr>
+      <td>requestFullScreen</td>
+      <td>Attempts to make the node full screen.</td>
+    </tr>
+    <tr>
+      <td>cancelFullScreen</td>
+      <td>Brings the node out of full screen mode.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nodes put into full screen mode will fire a <code>fullscreenchange</code> event. Full screen is not implemented the same way in all browsers—some browsers support putting any element in full screen mode, others support only a subset of elements. If full screen is supported in the the browser, <code>Y.Node.SUPPORTS_FULLSCREEN</code> will be set to <code>true</code>.</p>

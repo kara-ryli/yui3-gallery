@@ -1,0 +1,8 @@
+{
+    "gallery-node-fullscreen": {
+        "requires": [
+            "event-synthetic",
+            "node-base"
+        ]
+    }
+}

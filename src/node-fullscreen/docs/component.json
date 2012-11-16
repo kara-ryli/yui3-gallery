@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-node-fullscreen",
+    "displayName": "Gallery: gallery-node-fullscreen",
+    "description": "Adds full screen support to Y.Node",
+    "author"     : [ "rcanine" ],
+
+    "tags": [ "gallery", "node" ],
+
+    "examples": []
+}

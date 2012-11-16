@@ -1,0 +1,10 @@
+{
+    "name": "gallery-node-fullscreen",
+    "builds": {
+        "gallery-node-fullscreen": {
+            "jsfiles": [
+                "js/gallery-node-fullscreen.js"
+            ]
+        }
+    }
+}
